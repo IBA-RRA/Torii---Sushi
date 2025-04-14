@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* ENCABEZADO PRINCIPAL */
+  .hero {
+    background: linear-gradient(to right, #f9f9f9, #ffe6e6);
+    padding: 30px 0 100px;
+    text-align: center;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Para que sea circular */
+    object-fit: cover;
+  }
+  
+  .navbar h2 {
+    font-size: 28px;
+    color: #b31217;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #b31217;
+  }
+  
+  /* HERO TEXT */
+  .hero-text {
+    margin-top: 50px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    color: #b31217;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 30px;
+  }
+  
+  .btn-hero {
+    padding: 10px 25px;
+    background-color: #b31217;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-hero:hover {
+    background-color: #e02126;
+  }
+  
+  /* PROMOCIONES */
+  .promo {
+    padding: 50px 20px;
+    background-color: #fbeeee;
+    text-align: center;
+  }
+  
+  .promo h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .promo-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .promo-item img {
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .promo-item p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* MENÚ */
+  .menu {
+    padding: 50px 20px;
+    background-color: #fff7f7;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .menu-item {
+    max-width: 250px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .menu-item h3 {
+    margin: 10px 0 5px;
+    color: #b31217;
+  }
+  
+  .menu-item p {
+    font-size: 14px;
+  }
+  
+  /* NOSOTROS */
+  .nosotros, .ubicacion, .contacto {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .nosotros img, .ubicacion img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  /* CONTACTO */
+  .contacto form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .contacto input, .contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contacto button {
+    background-color: #b31217;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .contacto button:hover {
+    background-color: #e02126;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #b31217;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
